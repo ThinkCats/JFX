@@ -57,7 +57,7 @@
                      <children>
                         <Button mnemonicParsing="false" text="新建.." />
                         <Button mnemonicParsing="false" text="编辑.." />
-                        <Button mnemonicParsing="false" text="删除" />
+                        <Button mnemonicParsing="false" onAction="#handleDelete" text="删除" />
                      </children>
                   </HBox>
                </children>
